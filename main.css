@@ -1,0 +1,71 @@
+/* Geral */
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Gabarito', sans-serif;
+    font-size: 15px;
+}
+
+.container {
+    display: flex;
+    margin: 10px auto;
+    max-width: 1280px;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+body h1 {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+body h2 {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 48px;
+    font-weight: 100;
+}
+
+/* Cabeçalho */
+
+header > .container {
+    height: 200px;
+    align-items: center;
+}
+
+header nav li {
+    display: inline;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    margin: auto 4px auto 4px;
+}
+
+header img {
+    height: 32px;
+    filter: grayscale(100%);
+}
+
+header img:hover,
+header nav li a:hover {
+    opacity: 0.5;
+}
+
+
+/* Imagens portfolio */
+
+.c-image {
+    flex: 1 0 50%; 
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.c-image img { 
+    width: 100%;
+}
